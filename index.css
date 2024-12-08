@@ -1,0 +1,14 @@
+.d1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIUMdscM2zyRGOI3TM0yiw5psrmMZpf-coiA&s");
+    width:100vw;
+    height:100vw;
+    text-align: center;
+}
+
+.h1{
+    color:green;
+
+}
+.p{
+    font-size:large;
+}
