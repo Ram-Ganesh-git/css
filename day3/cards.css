@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+.box{
+    width:32%;
+    display:inline-block;
+    box-sizing:border-box;
+    background:#e6d7d7;
+    padding:10px;
+    margin:8px;
+    margin-bottom:15px;
+    margin-top: 25px;
+
+}
