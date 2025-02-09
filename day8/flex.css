@@ -1,0 +1,17 @@
+.nav{
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    margin:10px;
+
+}
+
+.item2{
+    display:flex;
+    gap:45px;
+    /*border:1px solid lightcoral;*/
+}
+
+span{
+    font-weight:900;
+}

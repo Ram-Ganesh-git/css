@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        border:1px solid green;
+        height:60vh;
+        background-color:lightcoral;
+
+    }
+    button{
+        margin:20px;
+        border-radius: 10px;
+    }
+    img{
+        height:30vh;
+        width:30vw;
+        margin:30px;
+    }
+    .trans:hover~img{
+        transform:translate(100px);
+        transition-duration: 3sec;
+    }
+    .trans1:hover~img{
+        transform:rotate(180deg);
+        transition-duration: 2sec;
+    }
+    .trans2:hover~img{
+        transform:scale(0.8);
+        transition-duration: 2sec;
+    }
+    .trans3:hover~img{
+        transform:skew(20deg,20deg);
+        transition-duration: 2sec;
+
+    }
+</style>
+<body>
+    <div class="div">
+    <button class="trans">translate</button>
+    <button class="trans1">rotate</button>
+    <button class="trans2">scale</button>
+    <button class="trans3">skew</button><br>
+    <img src="team1.jpg" alt="">
+    
+    </div>
+</body>
+</htm

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css positions</title>
+    <style>
+        body{
+            text-align: center;
+            margin-top:15px;
+        }
+        .container{
+            border:2px solid lightgreen;
+            height:60vh;
+            margin:160px;
+            position:relative;
+
+        }
+
+        .container>img{
+            position:absolute;
+            height: 20vh;
+            width:25vw
+        }
+
+       
+
+        .child1{
+            top:-100px;
+            left:-120px;
+            border-radius:15px;
+
+        }
+
+        .child2{
+            right:-100px;
+            top:-100px;
+            border-radius:15px;
+
+        }
+
+        .child3{
+            bottom:-100px;
+            left:-125px;
+            border-radius:15px;
+
+        }
+
+        .child4{
+            bottom:-85px;
+            right:-125px;
+            border-radius:15px;
+        }
+        .child5{
+            position:absolute;
+            top:50%;
+           left:50%;
+           border-radius: 15px;
+           transform:translate(-50%,-50%) 
+
+
+        }
+    </style>
+</head>
+<body>
+    <h2>positions</h2>
+    <div class="container">
+        <img src="images@1.jpg" alt="" class="child1">
+        <img src="images@2.jpg" alt="" class="child2">
+        <img src="image@5.jpg" alt="" class="child3">
+        <img src="images@6.jpg" alt="" class="child4">
+        <img src="images@4.jpg" alt="" class="child5">
+    </div>
+    
+</body>
+</html>

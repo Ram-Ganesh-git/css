@@ -1,0 +1,158 @@
+.box{
+    border:2px solid lightgray;
+    font-size:2rem;
+    padding:14px;
+    margin:20px;
+    text-align: center;
+    box-shadow:-2px -2px 12px 10px lightpink inset, 2px 2px 7px 3px rgb(96, 94, 94);
+}
+.box-shadow{
+    display: flex;
+
+
+}
+
+.box1:hover{
+    transform: scale(1.1);
+    
+}
+
+
+.box1{
+    transition: 1s;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    /* border: solid; */
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 5px 3px 5px 5px rgb(140, 131, 131);
+    align-content: center;
+    padding:2px; 
+   
+
+}
+
+h3{
+    font-size:20px;
+    text-align: center;
+}
+
+#a,#f{
+    background-color:rgb(210,210,253);
+}
+
+#b,#i,#n{
+    background-color: beige;
+}
+
+#d,#h,#j{
+    background-color:lightpink;
+}
+
+#c,#r,#m, #t{
+    background-color:rgb(255,217,147);
+
+}
+
+#g,#k,#p{
+    background-color:rgb(198,217,230);
+}
+
+#e,#s{
+    background-color:lavenderblush;
+}
+
+#l,#r{
+    background-color:rgb(197,273,289);
+}
+
+#o,#q{
+    background-color:lightgreen;
+}
+
+#a:hover{
+    font-family:"Kanit",sans-serif;
+
+}
+
+#b:hover{
+    font-family:"Playwrite CO Guides", serif;
+}
+
+#c:hover{
+    font-family:"Danfo", serif;
+}
+
+#d:hover{
+    font-family:"Great Vibes", cursive;
+}
+
+#e:hover{
+    font-family:"Playball",cursive;
+}
+
+#f:hover{
+    font-family: "Lobster",sans-serif;
+}
+
+#g:hover{
+    font-family: "Rowdies",sans-serif;
+
+}
+
+#h:hover{
+    font-family: "pacfico",cursive;
+}
+
+#i:hover{
+    font-family: "Micro 5",sans-serif;
+}
+
+#j:hover{
+    font-family: "jacquard 12",system-ui;
+
+}
+
+#k:hover{
+    font-family:"Vast Shadow",serif;
+}
+
+#l:hover{
+    font-family: "Tiny5",sans-serif;
+}
+
+#m:hover{
+    font-family: "permanent Marker",cursive;
+}
+
+#n:hover{
+    font-family: "Abril fatface",serif;
+}
+
+#o:hover{
+    font-family: "DM Serif text",serif;
+}
+
+#p:hover{
+    font-family: "Playwrite NZ",cursive;
+
+}
+
+#q:hover{
+    font-family: "Jersey 15 Charted",sans-serif;
+}
+
+#r:hover{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#s:hover{
+    font-family: "Italianno",cursive;
+}
+
+#t:hover{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

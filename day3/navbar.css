@@ -1,0 +1,29 @@
+body{
+}
+.nav{
+    /* width:auto;444 */
+    background-color: rgb(73, 72, 72);
+    padding-top:8px;
+    display:inline-block;
+    overflow-x:scroll;
+    white-space:nowrap;
+    
+}
+
+span{
+    color:white;
+    font-size:16px;
+    margin:13px;
+    text-align: center;
+    display: inline-block;85
+    ...
+}
+
+span:active{
+    background-color: black;
+
+}
+span:hover{
+    cursor: pointer;
+}
+

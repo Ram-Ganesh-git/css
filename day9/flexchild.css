@@ -1,0 +1,43 @@
+body{
+    margin-top:25px;
+    padding:20px;
+    text-align: center;
+    background-color: gray;
+    height:30vh;
+}
+
+.img{
+    width:100px;
+    flex-basis: 30%;
+
+}
+.a1{
+    padding:10px;
+
+}
+.child1{
+    border:1px solid lightblue;
+    padding:20px;
+    box-shadow: 1px 1px 2px grey;
+    background-color: white;
+}
+
+.item1a{
+    display:flex;
+
+}
+.item1b{
+    padding:10px;
+}
+.item1c{
+    display: flex;
+    justify-content:space-between;
+    padding:15px;
+}
+
+.parent1{
+    display:flex;
+    justify-content: space-evenly;
+    gap:10px;
+}
+

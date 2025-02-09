@@ -32,23 +32,23 @@
     
 }
 .white:active{
-    color:lightseagreen;
+    color:rgb(50, 15, 250);
     cursor: pointer;
     
 } 
   .white:hover{
-    background-color:lightgoldenrodyellow;
+    background-color:rgb(248, 248, 159);
     cursor: pointer; 
 }
 
 .black:active{
-    color:lightcoral;
+    color:rgb(201, 3, 3);
     cursor: pointer;
     
 }
 
 .black:hover{
-    background-color:lightgreen;
+    background-color:rgb(243, 165, 235);
     cursor: pointer;
 }
 
